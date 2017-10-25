@@ -15,7 +15,6 @@ class App extends Component {
         };
 
         this.changeArea = this.changeArea.bind(this);
-
     }
 
     render() {
