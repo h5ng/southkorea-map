@@ -30,10 +30,9 @@ class App extends Component {
     }
 
     changeArea(selected) {
-        if (!/^[0-9]+$/.test(selected)) {
-            return alert('Please input only number...');
+        if (!/^(?=[0-9]*$)(?:.{2}|.{5}|.{7})$/.test(selected)) {
+            return alert('숫자 2, 5, 7 글자만');
         }
-
         this.setState({selected});
     }
 }
