@@ -5,7 +5,7 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            depth: 'sd',
+            selected: '11',
             lat: 35.86444105960784,
             lng: 128.24005901199945,
             scale: 5500,
@@ -13,6 +13,7 @@ class App extends Component {
             height: 700
         };
     }
+
     render() {
         return (
             <Map {...this.state}/>
