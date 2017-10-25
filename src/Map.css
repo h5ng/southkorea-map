@@ -1,7 +1,11 @@
 path {
-    fill: #ffffff;
-    stroke: #000000;
+    fill: #fff;
+    stroke: #000;
+    stroke-width: 0.5;
 }
 .selected {
-    fill: #cccccc;
+    fill: #535353;
+    stroke: #ccc;
+    stroke-width: 0.1;
+
 }
