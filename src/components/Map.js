@@ -3,8 +3,8 @@ import {geoMercator, geoPath} from 'd3-geo';
 import {merge} from 'topojson-client'
 import {each, groupBy} from 'underscore';
 
-import './Map.css';
-import umd from './mapdata/umd.json';
+import '../assets/css/Map.css';
+import umd from '../assets/umd.json';
 
 const Map = ({width, height, scale, lat, lng, selected}) => {
     const proj = geoMercator()

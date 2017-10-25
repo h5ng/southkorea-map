@@ -1,8 +1,8 @@
-# korea-map
+# South Korea Map
 
 ## Run
 ```
 $ npm install
 $ npm start
 ```
-`localhost:3000` on your favorite browser.
+`localhost:3000` on your favorite brower.

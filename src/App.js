@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import Map from './Map';
-import Navigation from './Navigation';
+import Map from './components/Map';
+import Navigation from './components/Navigation';
 
 class App extends Component {
     constructor(props) {
